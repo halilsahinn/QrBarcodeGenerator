@@ -30,8 +30,11 @@ namespace QrBarcodeGenerator
         {
             using (SaveFileDialog saveFileDialog = new SaveFileDialog() { Filter = @"PNG|*.png" })
             {
+                saveFileDialog.FileName = "QrBarcode.png";
+
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
+                   
                     picQrBarcode.Image.Save(saveFileDialog.FileName);
                 }
             }
