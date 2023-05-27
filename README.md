@@ -1,3 +1,3 @@
-# QrBarcodeGenerator
-QR Barcode Generator
+#QrBarcodeGenerator
+
 <img src="/Screenshot_1.png">
